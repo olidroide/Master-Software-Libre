@@ -1,0 +1,112 @@
+\documentclass[11pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenx}
+\usepackage{eurosym}
+\usepackage{verbatim}
+\usepackage{url}
+\usepackage[pdftex]{graphicx}
+\usepackage{hyperref}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\begin{document}
+
+
+\begin{titlepage}
+
+\begin{center}
+
+
+% Upper part of the page
+\includegraphics[width=0.15\textwidth]{./logo}\\[1cm]    
+
+\textsc{\LARGE Universidad Rey Juan Carlos}\\[1.5cm]
+\textsc{\Large Máster Universitario en Software Libre}\\[0.2cm]
+\textsc{Aspectos económicos del Software Libre}\\[0.2cm]
+
+% Title
+\HRule \\[0.4cm]
+{ \huge \bfseries Plan de negocio - Software de gestión para autodiagnosticos en pacientes y médicos}\\[0.4cm]
+\HRule \\[1.5cm]
+
+% Author and supervisor
+\begin{minipage}{1\textwidth}
+\begin{flushleft} \large
+\emph{Autor:}\\
+Oliver \textsc{Mas}
+\end{flushleft}
+\end{minipage}
+
+\vfill
+
+% Bottom of the page
+{\large \today}
+
+\end{center}
+
+\end{titlepage}
+
+
+
+\tableofcontents
+\newpage
+
+
+\section{Introducción}
+El negocio se basa en una serie de herramientas web y aplicación móvil para realizar diagnosticos y autodiagnosticos para detectar posibles problemas de salud y llevar un historial médico.
+Se trata de un proyecto de Software Libre bajo licencia GPLv3. Con esta estrategia tratamos de abrir mercado dentro del software de gestión y diagnostico medicinal, ya que mucho software dedicado a este tipo de gestiones, están sujetas a patentes y estándares cerrados. El factor de Software Libre es vital cuando se trata de sanidad, pues con esta herramienta se intenta crear estándar abierto para la interoperabilidad entre hospitales o clínicas. Además, gracias a otras tecnologías hardware como dispositivos móviles con Android y Arduino, podrá abrirse puertas a crear protocolos o nuevos dispositivos económicos y fáciles de usar para que las personas se puedan diagnosticar. Por ejemplo, gracias a los sensores de gravedad y rotación de un dispositivo con Android, se podrían detectar problemas musculares sin que el paciente tenga la necesidad de desplazarse fisicamente a la consulta médica. También se podrá hacer una serie de ejercicios y progresiones para que el paciente tenga retroalimentación de su avance físico. 
+
+Una fuente favorable de que este es un proyecto viable es que Android en su versión 4, gracias a la labor GSyC/Libresoft, incluye el protocolo ISO/IEEE 11073-20601. Una pila de comunucación por Bluetooth para comunicarse con dispositivos médicos, del que existe un proyecto en la forja de Morfeo llamado OpenHealth \url{http://openhealth.morfeo-project.org/}.
+
+\newpage
+
+\section{Análisis del modelo de negocio}
+\subsection{Socios clave}
+Socios claves son los hospitales o clínicas interesados en implantar este sistema. Para ayudar a la popularización de este producto, se puede lanzar aplicaciones móviles con funciones básicas para que la población se realicen autodiagnostico.
+
+\subsection{Actividades clave}
+La actividad clave de este modelo de negocio, es que se popularice entre los pacientes, y que sea recomendado por médicos. De esta manera el canal de distribución por el que se obtiene beneficios son los hospitales, que necesitarían implementar este software en sus instalaciones.
+
+\subsection{Recursos clave}
+Nuestros recursos claves son los canales de distribución, para que el proyecto avance adecuadamente se necesita que la gnete colabore en su uso y que llame la atención al principal aportador de ingresos que son hospitales y/o clínicas.
+Claro que al ser un proyecto de Software Libre lleva consigo una serie de valores que lo hacen clave para crear una serie de estándares de documentación y tecnológicos para el mercado sanitario, que se mueve en el mercado de software propietario. Conseguiremos así abrir mercado a nuevos frabricantes especializados en el ámbito de la medicina.
+
+\subsection{Propuestas de valor}
+\begin{itemize}
+\item Sencillez de tener su historial clínico siempre a mano tanto para pacientes como a médicos.
+\item Poder realizar un autodiagnostico sencillo en su propio hogar.
+\item Avisos de emergencia automáticos, asistencia personalizada.
+\item Asistencia a distancia.
+\item Alarmas personalizadas tanto para un paciente que necesita una revisioón personalizada, como un médico para atender a sus citas.
+\item Evaluaciones de epidemias o análisis y gráficas de determinados problemas de salud, gracias a los datos demográficos obtenidos a dispositivos móviles.
+\item Vademecum móvil y con posible capacidad de mejora pro cada médico.
+\end{itemize}
+
+\subsection{Canales de distribución}
+Los canalaes de distribución pueden ser varios, desde una simple aplicación en mercado de aplicaciones del dispositivo móvil, una página web del hospital o incluso el mismo hospital será encargado de facilitar dispositivos para su autodiagnosticos.
+
+\subsection{Segmentos de clientes}
+\begin{itemize}
+\item Pacientes de hospitales
+\item Usuarios para autoevaluarse
+\item Médicos
+\end{itemize}
+
+\subsection{Estructura de costes}
+El coste más importante es realizar una primera versión del producto, en adelante se asume que los ingresos obtenidos podrán servir para las mejoras que cada Hospital/Clinica o pacientes requieran. En este caso hay que conseguir un Business Angel, hospital interesado, crowdfunding o que la comunidad se interese y aporte su tiempo voluntario para el desarrollo.
+Dependiendo de que sistema de financiación inicial se consiga, el coste puede ser mínimo o más alto si se necesitara entregar el proyecto en un determinado plazo.
+Suponiendo el caso de que el proyecto hay que entregarlo en un plazo de un año, contando con 5 desarrolladores cobrando 1500\euro mensuales y añadiendo gastos extraordinarios para desarrollo de diseños gráficos y hardware, saldría a un coste de 100000\euro.
+
+\subsection{Fuente de ingresos}
+Como usuarios finales, los pacientes no necesitarían pagar nada mas que a su seguro médico, o incluso nada, pues la aplicación estará de forma gratuita para autodiagnosticarse y conectarse con su centro médico.
+Donde se obtendrían ingresos será por parte de los clínicas y/o hospitales que quieran implementar este software para sus pacientes como valor extra.
+
+\section{Licencia}
+Este obra está bajo una licencia de Creative Commons Reconocimiento-CompartirIgual 3.0 Unported. \url{http://creativecommons.org/licenses/by-sa/3.0/}.
+The source code of this document can be found in:
+	\begin{itemize}
+		\item \url{git://gitorious.org/mswl_notes_2011_2012/mswl_notes_2011_2012.git}
+		\item \url{https://git.gitorious.org/mswl_notes_2011_2012/mswl_notes_2011_2012.git}
+	\end{itemize}
+    \begin{center}
+    \end{center}
+\end{document}  
