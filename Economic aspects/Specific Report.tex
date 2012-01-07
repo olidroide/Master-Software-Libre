@@ -1,0 +1,127 @@
+\documentclass[11pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenx}
+\usepackage{eurosym}
+\usepackage{verbatim}
+\usepackage{url}
+\usepackage[pdftex]{graphicx}
+\usepackage{hyperref}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\begin{document}
+
+
+\begin{titlepage}
+
+\begin{center}
+
+
+% Upper part of the page
+\includegraphics[width=0.15\textwidth]{./logo}\\[1cm]    
+
+\textsc{\LARGE Universidad Rey Juan Carlos}\\[1.5cm]
+\textsc{\Large Máster Universitario en Software Libre}\\[0.2cm]
+\textsc{Aspectos económicos del Software Libre}\\[0.2cm]
+
+% Title
+\HRule \\[0.4cm]
+{ \huge \bfseries Informe específico - Modelo de negocio de Android}\\[0.4cm]
+\HRule \\[1.5cm]
+
+% Author and supervisor
+\begin{minipage}{1\textwidth}
+\begin{flushleft} \large
+\emph{Autor:}\\
+Oliver \textsc{Mas}
+\end{flushleft}
+\end{minipage}
+
+\vfill
+
+% Bottom of the page
+{\large \today}
+
+\end{center}
+
+\end{titlepage}
+
+
+
+\tableofcontents
+\newpage
+
+
+\section{Introducción}
+Más de cuatro años y seguirá dando que hablar. Al dia de hoy, mucha gente conoce este Sistema Operativo para móviles, comunmente llamado, el móvil de Google. Pero, ¿Realmente es Google la que gana con Android? o ¿Cómo se beneficia al desarrollar un Software Libre sin pedir nada a cambio?
+
+Antes de analizar el modelo de negocio de Android, explicaré brevemente su historia. Es de vital importancia saber en las condiciones en las que se creó este Sistema Operativo. Android proviene de la Open Handset Alliance, consorcio creado  el 5 de Noviembre de 2007 por varias compañias fabricantes de hardware y desarrolladora de software, entre las que se incluia Google, HTC, Samsung y Nvidia entre otras. No es casualidad que Google estuviera en la lista, ya que años antes, el 17 de Agosto de 2005 compró Android inc. empresa fundada por Andy Rubin en el 2003, cuya vision era crear dispositivos móviles más inteligentes.
+En todo este sentido, podemos ver que tanto Apple como Google tuvieron una visión muy a la par. En Cupertino se empezó a investigar en pantallas táctiles en el 2005. Aunque fue Apple la primera empresa que colocó un telefono móvil con unas caracteristicas no vistas antes, el 9 de Enero de 2007. 
+Es aqui donde Google llega mas tarde, pero aún es dificil saber con exactitud si forma parte de una estrategia de negocio. Tal y como explica la ley de Clayton Christensen, Google se podría estar aprovechando de la conservación de los beneficios atractivos. Es decir, El mercado ya está montado por Apple con iPhone, existe una cadena de beneficios, solamente faltaba poner un actor con Software Libre que rompiera esa cadena y abriera el mercado, y eso fue Android.
+
+\newpage
+
+\section{Análisis DAFO}
+\subsection{Debilidades}
+\begin{itemize}
+\item Dependencia de los fabricantes, al contrario que Apple que controla cuándo y qué dispositivos se actualizarán, Google no podrá hacer lo mismo con los dispositivos que integren Android. Es natural en cualquier proyecto de Software Libre, que exista esta diversidad. Aunque este problema no es de Google por completo, si no de la comunidad (fabricantes), como fabricantes de hardware, su modelo de negocio es vender más cantidad de dispositivos, y aprovechan un cambio de versión de Android para crear una gama nueva de dispositivos, con mejoras insignificantes y que podrían funcionar perfectamente con los dispositivos que ya están en el mercado. Cierto es que llega un momento en el que un dispositivo se queda anticuado, y es algo que también le sucede a Apple. En su contra, Android al ser Software Libre, a dado pie a crear comunidades encargadas de modificar el Sistema Operativo para adaptarlo a sus terminales que sus fabricantes originales no quieran actualizar. Una de estas comunidades es CyanogenMod \cite{cyanogenmod}.
+\item Apoyo empresarial, uno de los sectores que más consumen dispositivos móviles son las empresas. En este sector todavía siguen ganando Microsoft y RIM, tienen muchos más años en el mercado, tienen mucha compatibilidad con productos integrados y cambiar estos sistemas suponen un coste económico y un coste de aprendizaje. Es cierto que poco a poco va cambiando, y cada vez se puede ver mayor cantidad de Android.
+\end{itemize}
+
+\subsection{Amenazas}
+\begin{itemize}
+\item Apple sigue dominando, y mientras siga así Android se moverá en la dirección que marque Apple. Ya se ha observado en el mercado de móviles y en el de las tablets. Esto provoca cierto desconcierto en los movimientos de la plataforma de Google. Además esto provoca que se desarrollen aplicaciones para iPhone mucho antes que para Android y que esto le de un valor potencial a la hora de decidir por cual sistema escoger en la compra.
+\item Mayor competencia, de los mercados ya establecidos, como Microsoft con Windows Phone o RIM con BlackBerry. Obviamente, estas empresas va a pelear por hacerse hueco en este mercado y son actores muy establecidos en las empresas.
+\item Fragmentación, y no por los distintos tipos de versiones de Android, es normal que el software avance, y de esto no se libra ni iPhone, BlackBerry, Symbian o Windows Phone. Cualquier desarrollador conoce los quebraderos de cabeza que supone que exista una total compatibilidad entre varias versiones. Pero en el caso de Android y iPhone, se consigue sin mayor problema. El problema de la fragmentación es que vengan otros fabricantes y decidan realizar un Fork de Android y crear su Sistema Operativo totalmente independiente. Ya existen distribuciones como MIUI \cite{miui} que son software propietario, y sus modificaciones no están siendo retroalimentadas al proyecto original.
+\end{itemize}
+
+\subsection{Fortalezas}
+\begin{itemize}
+\item Google. La compañía que está detrás de este desarrollo software le ha dado confianza tanto a fabricantes como a usuarios o socios. El equipo de Android cuenta con todos los recursos intelectuales y económicos de Google. Además, muchos usuarios conocen bien la plataforma de servicios que ofrece, como Gmail, Maps, Docs, Google+, Traductor... Una compañía de estas dimensiones ha dado credibilidad al proyecto. 
+\item Diferentes posibilidades de hardware. Al contrario que iPhone, que no da opciones a distintos fabricantes de implementar en sus propios dispositivos su Sistema Operativo. En este punto hay que destacar a Samsung, gracias a Android ha pasado a ser el fabricante que mas dispositivos móviles ha vendido superando a Apple \cite{samsungSellMoreApple}.
+\item Es Software Libre, construido con núcleo Linux y utilizando lenguaje Java. La elección de Java como leguaje no es casual, pues es uno de los lenguajes de programación más usados \cite{tiobe}, atrayendo así a más desarrolladores de software. También cuenta con una web \cite{developerAndroid} con mucha información sobre como programar y ejemplos. Y también cuenta cono otra web con el código fuente del proyecto \cite{sourceAndroid}. Por estas caracteristicas, también ha conseguido posicionarse entre dispositivos a precios competitivos, pues no requiere de una licencia o unas caracteristicas mínimas exigentes para poder implementarto, como puede suceder con Windows Phone \cite{windowsPhoneRequirements}.
+\end{itemize}
+
+\subsection{Oportunidades}
+\begin{itemize}
+\item Paises en desarrollo, gracias al bajo costo en utilizar la plataforma Android y una licencia libre, la capacidad de implementarlo es mucho menor que cualquier otro sistema. Además se puede integrar con otros sitemas gratuitos de Google.
+Tablets, sin duda es el camino natural de este Sistema Operativo. Tal y como ya hizo Apple con iPad, y que actualmente tiene la mayor cuota de mercado \cite{appleShare2011}. Posiblement Google esté realizando la misma jugada que realizó al sacar Android para teléfonos al mercado, ya que ha lanzado la versión 3.x de Android de manera privativa, pero que con la salida y liberación de la versión 4.x puede que el mercado vuelva a abrirse.
+\item Dispositivos integrados, actualmente es el único mercado en el que otras compañías lo tienen más dificil de competir por su modelo de negocio y licencias. Android podrá estar integrados en automóviles \cite{engadgetNews}, o crear dispositivos libres con Arduino \cite{arduinoAndroid}.
+\end{itemize}
+
+\newpage
+
+\section{Conclusión}
+Después de realizar este análisis por disitintos factores en los que se encuentra y por los que ha pasado el proyecto Android en su corto periodo de vida, podemos concluir que tiene una buena posición en el mercado. Pero es muy dependiente de muchos factores, principalmente de Apple y de los fabricantes. Para que Android siga evolucionando debe marcar una clara diferencia o crear un mercado y no ser dependiente de los movimientos de mercado de Apple. Puede que el mercado cambie debido a la reciente muerte de Steve Jobs, ya que gran parte del mercado que tiene Apple es gracias a la evangelización de una gran cantidad de usuarios. Sobre la dependencia de los fabricantes, es algo natural de cualquier proyecto de Software Libre, y es necesario que siga así, pues la única manera de que no exista esto es quitando libertades sobre el software. En este sentido son los usuarios finales los que deben ejercer presión a los fabricantes y que vean una clara necesidad de mantener sus dispositivos actualizados y dar una garantía sostenible. Fabricantes como HTC intentaron cerrar las puertas a los usuarios, cerrando el Bootloader, evitando la posibilidad de que los usuarios puedan cambiar el Sistema Operativo de su dispositivo. Algo tan inviable como obligar a los usuarios de ordenadores no pudieran cambiar de Sistema Operativo.
+Android es y deberá seguir siendo libre para su funcionamiento y distinguirse en este aspecto será su ventaja sobre la competencia.
+
+\newpage
+
+\begin{thebibliography}{11}
+
+\bibitem{cyanogenmod} CyanogenMod \url{http://www.cyanogenmod.com/}.
+\bibitem{miui} MIUI \url{http://en.miui.com/}.
+\bibitem{tiobe} Tiobe language programming statistics \url{http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html}.
+\bibitem{samsungSellMoreApple} Techworld new: Samsung selling more phones than Apple \url{http://news.techworld.com/sme/3312850/samsung-selling-more-phones-than-apple-says-wall-street-journal/}.
+\bibitem{developerAndroid} Developer Android Site \url{http://developer.android.com/index.html}.
+\bibitem{sourceAndroid} Android source code Site \url{http://source.android.com/}.
+\bibitem{windowsPhoneRequirements} Windows Phone Minimun Requirements \url{http://en.wikipedia.org/wiki/Windows_Phone#System_requirements}.
+\bibitem{appleShare2011} Allthingsd.com - Apple share of the 2011 tablet market 75 percent or more \url{http://allthingsd.com/20111107/apples-share-of-the-2011-tablet-market-75-percent-or-more/?mod=socialflow}.
+\bibitem{engadgetNews} Endadget news with automotive and Android \url{http://es.engadget.com/tag/android,automovil}.
+\bibitem{arduinoAndroid} Arduino reference on Android developer site \url{http://developer.android.com/guide/topics/usb/adk.html}.
+\bibitem{miui} MIUI \url{http://en.miui.com/}.
+\bibitem{androidWikipedia} Android Wikipedia reference \url{http://es.wikipedia.org/wiki/Android}
+\bibitem{iPhoneWikipedia} iPhone Wikipedia reference \url{http://en.wikipedia.org/wiki/IPhone}
+\bibitem{clayton} Clayton Christensen \url{http://www.claytonchristensen.com/}
+
+
+\end{thebibliography}
+
+\section{Licencia}
+Este obra está bajo una licencia de Creative Commons Reconocimiento-CompartirIgual 3.0 Unported. \url{http://creativecommons.org/licenses/by-sa/3.0/}.
+The source code of this document can be found in:
+	\begin{itemize}
+		\item \url{https://olidroide@github.com/olidroide/Master-Software-Libre.git}
+	\end{itemize}
+    \begin{center}
+    \end{center}
+\end{document}  
